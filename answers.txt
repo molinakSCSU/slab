@@ -1,0 +1,7 @@
+1. Didn't need sudo for node because it doesn't need root privileges
+2.lab.js is reading the plain text using the readfile then it prints it to console.
+3. The after readFile is because readfile is aynchronous and this allows the the program to continusly run and execute without the need to wait for file to load
+4. The toString translates the file to from raw to string so it could be readable
+5.The browser should know how to read because of Content-Type
+6.I would think there is some type of extension/code/module that has ability to map the right content-type
+7. To combine the abiliy to send static files and respond to requests should be done by routing the url.
